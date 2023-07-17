@@ -87,8 +87,8 @@ table {
 }
 
 @media (prefers-color-scheme: light) {
-    .day.dark-scheme { background: white; color: #555 }
-    .night.dark-scheme { background: #eee; color: #ddd }
+    .day.light-scheme { background: white; color: #555 }
+    .night.light-scheme { background: #eee; color: black }
 }
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
