@@ -82,16 +82,25 @@ table {
 
 /* CHANGE THE BODY'S BACKGROUND COLOR TO THE DARK GRAY IF THE USER PREFERS DARK MODE */
 @media (prefers-color-scheme: dark) {
-    .day.dark-scheme { background: #333; color: white }
-    .night.dark-scheme { background: black; color: #ddd }
-}
+    body {
+        background-color: var(--dark-gray);
+    }
 
-@media (prefers-color-scheme: light) {
-    .day.light-scheme { background: white; color: #555 }
-    .night.light-scheme { background: #eee; color: black }
 }
 
 /* --------------- END USER PREFERS DARK COLOR SCHEME QUERY --------------- */
+
+/*@media (prefers-color-scheme: dark) {
+    html {
+      background-color: red;
+    }
+  }
+  
+  @media (prefers-color-scheme: light) {
+    html {
+      background-color: blue;
+    }
+  }*/
 
 
 
